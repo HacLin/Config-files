@@ -1,0 +1,105 @@
+/*
+ * ROFI One Dark
+ *
+ * Based on OneDark.vim (https://github.com/joshdick/onedark.vim)
+ *
+ * Author: Benjamin Stauss
+ * User: me-benni
+ *
+ */
+
+
+* {
+  black:      #000000;
+  red:        #ac8a8c;
+  green:      #8aac8b;
+  yellow:     #aca98a;
+  blue:       #8f8aac;
+  magenta:    #ac8aac;
+  cyan:       #8aabac;
+  emphasis:   @text;
+  text:       #c1c1c1;
+  text-alt:   #1c1c1c;
+  fg:         #c1c1c1;
+  bg:         #1c1c1c;
+
+  spacing: 0;
+  background-color: transparent;
+
+  font: "Overpass Bold 12";
+  text-color: @text;
+}
+
+window {
+  transparency: "true";
+  fullscreen: false;
+  background-color: @bg;
+}
+
+mainbox {
+  padding: 24px 24px;
+  border: 0px;
+  border-color: @text;
+}
+
+inputbar {
+  margin: 0px 0px 24px 0px;
+  children: [prompt, textbox-prompt-colon, entry, case-indicator];
+}
+
+prompt {
+  text-color: @text;
+}
+
+textbox-prompt-colon {
+  expand: false;
+  str: ":";
+  text-color: @text-alt;
+}
+
+entry {
+  margin: 0px 6px;
+}
+
+listview {
+  spacing: 6px;
+  dynamic: true;
+  scrollbar: false;
+}
+
+element {
+  padding: 6px 6px 6px 6px;
+  text-color: @text;
+  highlight: @text;
+  border-radius: 0px;
+}
+
+element selected {
+  background-color: @bg;
+  border: 3px;
+  border-color: @text;
+  border-radius: 5px;
+}
+
+element urgent, element selected urgent {
+  text-color: @red;
+}
+
+message {
+  padding: 5px;
+  border-radius: 0px;
+  background-color: @bg;
+  border: 6px;
+  border-color: @green;
+}
+
+button selected {
+  padding: 5px;
+  border-radius: 0px;
+  background-color: @emphasis;
+}
+
+element-icon {
+  margin: 0px 12px 0px 0px;
+}
+

@@ -1,0 +1,88 @@
+all widgets{
+	background-color:LightGray;
+	}
+
+window{
+    location:center;
+    anchor:center;
+    width:800;
+    background-color:transparent;
+    border:1px;
+    border-radius:0px 15px 15px 15px;
+    children:[mainbox];
+}
+mainbox{
+    orientation:vertical;
+    background-color:transparent;
+    border:1px;
+    padding:0;
+    children:[inputbar,listview];
+    
+}
+inputbar{
+    background-color:transparent;
+    border:0;
+    margin:0;
+    children:[textbox-prompt-colon,entry];    
+}
+prompt{
+    background-color:transparent;
+    text-color:Black;
+    children:[promptbox];
+    border:0;
+    padding:2px;
+    margin:0;
+    content:"RUN";
+    
+}
+entry{
+    background-color:Black;
+    text-color:White;
+    font:"monospace bold 18";
+    padding:2px;
+    border:0;
+    margin:0;
+}
+textbox-prompt-colon{
+    expand:false;
+    str:"RUN ";
+    font:"monospace bold 18";
+    text-color:Black;
+    background-color:LightGray;
+    padding:5px;
+}
+listview{
+    background-color:LightGray;
+    text-color:Black;
+    padding:2px;
+    fixed-height:0;
+    border:0;
+    margin:0;
+    columns:2;
+    lines:7;
+    border-color:LightGray;
+}
+element{
+    border:2px;
+    margin:2px;
+    padding:2px;
+    border-radius:3px;
+    border-color:LightGray;
+    background-color:LightGray;
+}
+element-text{
+   highlight:None;
+   background-color:inherit;
+   }
+element-icon{
+ background-color:inherit;
+ }
+
+ element selected{
+     background-color:Black;
+     
+ }
+ element-text selected{
+     text-color:White;
+ }
+
