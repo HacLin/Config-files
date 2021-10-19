@@ -6,5 +6,5 @@ configuration {
  sort:true;
  combi-modi:"window,drun,run,ssh";
  window-format:"{w}-{t}";
- theme:"themes/rajtheme.rasi"; 
+ theme:"themes/mytheme3.rasi"; 
  }
