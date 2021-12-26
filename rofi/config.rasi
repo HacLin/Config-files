@@ -1,10 +1,15 @@
 configuration {
- modi: "window,drun,ssh,combi";
- font:"Source Code Pro 15";
+ font:"JetBrains Mono NL SemiBold 16";
  show-icons:true;
- drun-display-format:"[<span><b>{name}</b></span>]";
+ icon-theme:"Papirus";
+ display-drun: "RUN";
+ drun-display-format:"{name}";
  sort:true;
- combi-modi:"window,drun,run,ssh";
- window-format:"{w}-{t}";
- theme:"themes/mytheme3.rasi"; 
+ disable-history: false;
+ sidebar-mode : false;
  }
+
+ @theme "themes/mytheme3" 
+
+
+

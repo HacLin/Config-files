@@ -20,7 +20,7 @@ super + l
 
 #opens the filemanager
 super + shift + f
-	      thunar
+	caja 
 
 #opens the browser
 super + shift + b

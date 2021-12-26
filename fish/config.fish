@@ -10,14 +10,8 @@ if status is-interactive
     alias pf='pfetch'
     alias fm='$HOME/scripts/fm6000 -c bright_cyan -r -o "Arch Linux" -n -m 8 -l 20'
     alias wallpchg='nitrogen --set-zoom-fill --random $HOME/Wallpaper/ --save'
-    set -U fish_user_paths /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_per:/home/haclin/anaconda3/condabin/
+    set -U fish_user_paths /usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl/
 end
 
 
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-eval /home/haclin/anaconda3/bin/conda "shell.fish" "hook" $argv | source
-# <<< conda initialize <<<
-
-conda deactivate

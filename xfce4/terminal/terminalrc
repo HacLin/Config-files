@@ -26,11 +26,12 @@ MiscSlimTabs=FALSE
 MiscNewTabAdjacent=FALSE
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=FALSE
-FontName=JetBrains Mono Medium 16
+FontName=Noto Mono for Powerline 17
 TabActivityColor=#616135358383
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
 ScrollingUnlimited=TRUE
-ColorBackground=#24241f1f3131
+ColorBackground=#274922902fc9
 BackgroundImageFile=/home/haclin/Wallpaper/Anime/4616.jpg
 Encoding=UTF-8
+ColorCursorForeground=#000000000000
 
