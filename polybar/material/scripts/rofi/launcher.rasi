@@ -3,9 +3,9 @@ configuration {
 	font:							"JetBrains Mono NL SemiBold 16";
     show-icons:                     true;
 	icon-theme: 					"Papirus";
-    display-drun: 					"Applications";
+    display-drun: 					"RUN";
     drun-display-format:            "{name}";
-    disable-history:                false;
+    disable-history:                true;
 	sidebar-mode: 					false;
 }
 
@@ -26,10 +26,10 @@ window {
 
 prompt {
     enabled: 						true;
-	padding: 						1% 0.75% 1% 0.75%;
+	padding: 						1%;
 	background-color: 				@ac;
 	text-color: 					@fg;
-	font:							"Comfortaa Medium 14";
+	font:							"JetBrains Mono NL SemiBold 16";
 }
 
 textbox-prompt-colon {
