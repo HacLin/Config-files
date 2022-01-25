@@ -1,0 +1,5 @@
+
+action = copy
+files = [emojis]
+skin-tone = ask
+

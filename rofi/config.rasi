@@ -7,8 +7,11 @@ configuration {
  sort:true;
  disable-history: false;
  sidebar-mode : false;
+ modi: "drun,window,emoji:/bin/rofimoji";
+ combi-modi: "drun,window";
+ terminal :"xfce4-terminal";
+ run-shell-command: "{terminal} -e {cmd}";
  }
-
  @theme "themes/mytheme3" 
 
 
