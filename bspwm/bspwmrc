@@ -2,9 +2,9 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-$HOME/.config/polybar/launch.sh  --material&
+$HOME/.config/polybar/launch.sh --material&
 
-bspc monitor -d I II III IV V 
+bspc monitor -d I II III IV V VI VII  
 
 bspc config border_width         0
 bspc config window_gap           10

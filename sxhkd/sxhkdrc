@@ -8,7 +8,7 @@ super + Return
 
 # program launcher
 super + space
-	rofi -show drun 	
+	rofi -show  	
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -25,7 +25,6 @@ super + shift + f
 #opens the browser
 super + shift + b
 	      firefox
-
 # volume control
 
 XF86AudioLowerVolume
@@ -40,10 +39,10 @@ XF86AudioMute
 # brightness control
 
 XF86MonBrightnessDown
-	brightnessctl s 5%-
+	brightnessctl s 1%-
 
 XF86MonBrightnessUp
-	brightnessctl s 5%+
+	brightnessctl s 1%+
 
 
 #
